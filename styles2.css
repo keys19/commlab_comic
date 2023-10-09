@@ -1,0 +1,38 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px; /* Add negative margin to counter padding */
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px; /* Add padding to create space between columns */
+}
+
+.column img {
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
