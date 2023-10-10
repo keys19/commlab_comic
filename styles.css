@@ -34,3 +34,16 @@ img{
 .container:hover {
     transform: scale(1.1); /* Scale up the container on hover */
 }
+
+/* Mobile screens (phones and smaller devices) */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 20px; /* Adjust font size for readability */
+    }
+
+    .container {
+        max-width: 80%; /* Reduce container width for mobile screens */
+        max-height: auto; /* Allow the height to adjust based on content */
+        font-size: 18px; /* Adjust font size for readability */
+    }
+}
