@@ -31,9 +31,9 @@ img{
     width: 100%
 }
 
-.container:hover {
-    transform: scale(1.1); /* Scale up the container on hover */
-}
+/* .container:hover {
+    transform: scale(1.1); /* Scale up the container on hover 
+} */
 button {
     display: inline-block; /* Display the button as an inline-block element */
     padding: 10px 20px; /* Add padding to create space inside the button */
