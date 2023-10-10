@@ -34,6 +34,22 @@ img{
 .container:hover {
     transform: scale(1.1); /* Scale up the container on hover */
 }
+button {
+    display: inline-block; /* Display the button as an inline-block element */
+    padding: 10px 20px; /* Add padding to create space inside the button */
+    background-color:brown; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove the default button border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underlines from links */
+}
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.2);
+}
 
 /* Mobile screens (phones and smaller devices) */
 @media (max-width: 768px) {
