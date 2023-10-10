@@ -1,9 +1,11 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const svgElement = document.getElementById("Layer_1");
-    
-    // Add a click event listener to the SVG element
-    svgElement.addEventListener("click", function() {
-        // Redirect to scene1.html when the SVG is clicked
-        window.location.href = "./scene1.html";
-    });
-});
+
+let Layer1Shape=document.getElementById("Layer_1")
+let Layer2Shape=document.getElementById("Layer_2")
+
+Layer1Shape.addEventListener("click", () => {
+    window.location.href = "scene3a.html";
+})
+
+Layer2Shape.addEventListener("click", () => {
+    window.location.href = "scene3b.html";
+})
